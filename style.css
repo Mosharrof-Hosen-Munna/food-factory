@@ -181,3 +181,66 @@ footer p {
   font-size: 14px;
   color: #627c8e;
 }
+
+/* review section styles */
+section.review-section {
+  padding: 30px 0px;
+}
+
+.review-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.review-header h1 {
+  color: crimson;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.review-header p {
+  color: grey;
+  margin: 5px;
+}
+
+.all-review {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+  text-align: center;
+}
+
+.single-review {
+  width: 32%;
+  padding: 20px;
+  margin: 0px 20px;
+  background: #333;
+  border-radius: 10px;
+  color: white;
+}
+
+.profile-pic img {
+  width: 80px;
+  margin: auto;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50px;
+  border: 2px solid crimson;
+}
+
+.profile-pic {
+  text-align: center;
+}
+
+.person-details p {
+  width: 200px;
+  margin: auto;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.person-details a {
+  text-decoration: none;
+  color: crimson;
+  font-size: 15px;
+}
