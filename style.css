@@ -6,6 +6,36 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+/* nav styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 45px;
+}
+.nav-logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+.nav-logo span {
+  color: crimson;
+}
+nav.navbar button {
+  padding: 10px 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(56deg, #00fff3, #ef00dc, crimson);
+  border-radius: 22px;
+}
+
+nav.navbar button:hover {
+  border: 2px solid crimson;
+  background: transparent;
+  color: crimson;
+  cursor: pointer;
+  padding: 10px 32px;
+}
 /* header section styles */
 .fexible-container {
   display: flex;
@@ -61,6 +91,7 @@ section.header-section {
 
 .about-left-content {
   width: 50%;
+  text-align: center;
 }
 
 .about-left-content img {
@@ -91,6 +122,7 @@ section.about-me-section {
   font-size: 15px;
   line-height: 25px;
   color: grey;
+  width: 400px;
   margin-top: 41px;
   margin-bottom: 70px;
 }
@@ -100,6 +132,7 @@ section.about-me-section {
   margin: auto;
   width: 494px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 section.recipies-section {
@@ -119,7 +152,10 @@ section.recipies-section {
 
 .recipies-card {
   width: 33%;
-  padding: 25px;
+  box-shadow: 0px 0px 15px crimson;
+  padding: 16px 8px;
+  margin: 0px 14px;
+  border-radius: 10px;
 }
 
 .card-img img {
@@ -142,8 +178,11 @@ section.recipies-section {
 section.social-details {
   display: flex;
   justify-content: space-around;
-  margin: 0px 70px;
+  margin: 0px 40px;
+  box-shadow: 0px 0px 15px #444;
   margin-top: 70px;
+  padding: 20px 0px;
+  border-radius: 20px;
 }
 
 .single-details h1 {
@@ -163,8 +202,11 @@ footer {
   margin-top: 100px;
   background: #0b0d17;
   color: white;
+  border-top: 20px solid crimson;
   text-align: center;
   padding: 40px 0px;
+  border-bottom: 20px solid #296b4a;
+  border-radius: 5px;
 }
 
 footer h2 {
@@ -213,6 +255,7 @@ section.review-section {
 .single-review {
   width: 32%;
   padding: 20px;
+  box-shadow: 0px 0px 21px #f00;
   margin: 0px 20px;
   background: #333;
   border-radius: 10px;
@@ -236,6 +279,7 @@ section.review-section {
   width: 200px;
   margin: auto;
   font-size: 14px;
+  color: #888;
   margin-bottom: 20px;
 }
 
@@ -263,10 +307,12 @@ section.contact-section {
 .contact-details p {
   padding: 0;
   margin: 5px;
+  color: #df00d3;
 }
 
 .contact-details {
   padding: 50px;
+  box-shadow: 0px 0px 19px #777;
   margin-right: 10px;
   color: #555;
   background: linear-gradient(78deg, #00e7ff, #01ff2c);
@@ -279,6 +325,7 @@ section.contact-section {
   padding: 50px;
   margin-left: 10px;
   height: 100%;
+  box-shadow: 0px 0px 19px #777;
   background: linear-gradient(78deg, #d800ff, red);
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
@@ -310,6 +357,7 @@ section.contact-section {
   padding: 15px 11px;
   border-radius: 30px;
   width: 95%;
+  outline: none;
   border: none;
   margin-bottom: 20px;
 }
@@ -350,4 +398,7 @@ section.contact-section {
 .contact-header p {
   margin-top: -11px;
   color: grey;
+}
+.address-details {
+  color: #df00d3;
 }
